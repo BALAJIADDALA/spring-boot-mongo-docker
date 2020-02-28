@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: addalabalaji/kubeimage
+      - image: addalabalaji/kubeimage:latest
         name: springboot
         ports:
         - name: springboot
